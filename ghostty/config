@@ -1,0 +1,22 @@
+theme = catppuccin-mocha
+
+# Font
+font-family = "JetBrainsMonoNL Nerd Font"
+font-style = Regular
+font-size = 14
+adjust-cell-height = 25%
+
+# Window
+window-padding-x = 14
+window-padding-y = 14
+confirm-close-surface = false
+resize-overlay = never
+
+# Cursor
+cursor-style = "block"
+cursor-style-blink = true
+shell-integration-features = no-cursor
+
+# Keyboard bindings
+keybind = f11=toggle_fullscreen
+

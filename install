@@ -1,0 +1,19 @@
+#!/usr/bin/env sh
+
+DOTFILES="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Bash
+ln -sf $DOTFILES/bash/bashrc $HOME/.bashrc
+
+# Neovim
+rm -rf $HOME/.config/nvim
+git clone https://github.com/brandoncbang/kickstart.nvim.git $HOME/.config/nvim
+
+# Ghostty
+rm -rf $HOME/.config/ghostty
+ln -s $DOTFILES/ghostty $HOME/.config/ghostty
+
+# Git
+ln -sf $DOTFILES/git/gitconfig $HOME/.gitconfig
+ln -sf $DOTFILES/git/gitignore_global $HOME/.gitignore_global
+
