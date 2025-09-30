@@ -7,7 +7,7 @@ ln -sf $DOTFILES/bash/bashrc $HOME/.bashrc
 
 # Neovim
 rm -rf $HOME/.config/nvim
-git clone https://github.com/brandoncbang/kickstart.nvim.git $HOME/.config/nvim
+git clone git@github.com:brandoncbang/kickstart.nvim.git $HOME/.config/nvim
 
 # Ghostty
 rm -rf $HOME/.config/ghostty
