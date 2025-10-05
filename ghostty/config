@@ -1,4 +1,4 @@
-theme = catppuccin-mocha
+theme = "Catppuccin Mocha"
 
 # Font
 font-family = "JetBrainsMonoNL Nerd Font"
